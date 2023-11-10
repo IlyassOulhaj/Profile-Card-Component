@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body { 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(185, 75%, 39%);
+}
+
+
+.container { 
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+small { 
+    color: hsl(227, 10%, 46%);
+}
+
+h3 {
+    color: hsl(229, 23%, 23%);
+}
+
+.container .top-section svg { 
+    border-radius: 10px 10px 0 0;
+}
+
+.container .mid-section .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .mid-section .description img  {
+    border-radius: 50%;
+    margin-top: -50px;
+    box-shadow: 0 0 0 5px white;
+}
+
+.container .mid-section .description h3 {
+    margin: 20px 0 8px 0;    
+    font-size: 15px;
+}
+.container .mid-section .description h3 span {
+    color: hsl(0, 0%, 59%);
+}
+
+.container .mid-section .description small {
+    margin-bottom: 35px;
+}
+.container .bottom-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 1.25rem;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.followers ,
+.likes ,
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.followers small ,
+.likes small ,
+.photos small {
+    letter-spacing: 1px;
+    font-size: 11px;
+    margin-top: 2px;
+}
+ 
